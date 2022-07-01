@@ -1,0 +1,39 @@
+## [ <-- Color Code: http://web.feather-s.kr:100/colors/ --> ] ##
+
+## [ <-- Item Code: https://minecraftitemids.com/ --> ] ##
+#                     ⌜ We Need Numerical ID ⌟           #
+
+## <- Settings -> ##
+LogPrefix: "§a[§bMagicPlugin§a]"
+
+## <- CustomJoinMessage -> ##
+Join:
+  enable: true
+  message: "§9[§a+§9] §7%player%"   #[ you can use %player% ]#
+
+## <- CustomQuitMessage -> ##
+Quit:
+  enable: true
+  message: "§9[§a-§9] §7%player%"   #[ you can use %player% ]#
+
+## <- DiscordBot Settings -> ##
+BotToken: "YOUR_BOT_TOKEN"
+BotCommandPrefix: "!"
+BotStatus:
+  richPresence: "FEATHER ANARCHY"
+  status: "ONLINE" #[ "online", "idle", "dnd", "invisible", "offline" ]#
+
+# [Channel ID] #
+ChatSyncChannelID: "YOUR_CHANNEL_ID"
+
+## <- ChaySync Settings -> ##
+ChatSync:
+  message: "%player% » %message%"   #[ you can use %player% / %message%]#
+  joinMessage: "%player% joined the server!"  #[ you can use %player% ]#
+  quitMessage: "%player% left the server!"  #[ you can use %player% ]#
+  goalAdvancementMessage: "%player% has made the advancement: **%advancement_name%**!"  #[ you can use %player% / %advancement_name% ]#
+  playerDeathMessage: "%cause%"  #[ you can use %player%, %cause% ]#
+  messageReceivedFromDiscord: "§b[§6Discord§b] §7%user_name% » %message%"  #[ you can use %user_name% / %message% ]#
+
+## [ <-- By AMD_5900X -->] ##
+## [ <-- Contact: 호예준#3840 -->] ##
