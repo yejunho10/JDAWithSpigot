@@ -1,0 +1,10 @@
+name: JDAWithSpigot
+main: kr.AMD_5900X.mc.JDAWithSpigotMain
+version: 1.0
+description: This is a plugin that connects to Discord and Spigot.
+author: AMD_5900X
+api-version: 1.19
+
+commands:
+  mp:
+    description: JDAWithSpigot Command
